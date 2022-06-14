@@ -8,7 +8,7 @@ setup(
     author = "Ayodeji Yekeen",
     entry_points = """
     [console_scripts]
-    csv-linter=csv_linter:main
+    csv-linter=csv_linter.main:main
     """,
     install_requires = ["click==8.1.3","pandas==1.4.2"],
     vaersion = "0.0.1",
